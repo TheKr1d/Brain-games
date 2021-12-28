@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/TheKr1d/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/TheKr1d/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/TheKr1d/frontend-project-lvl1#readme",
+  "dependencies": {
+    "link": "^0.1.5",
+    "npm": "^8.3.0"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  }
 }
