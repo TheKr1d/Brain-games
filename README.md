@@ -8,4 +8,4 @@
 
 ### Пример игры Brain-Even
 
-[![asciicast](https://asciinema.org/a/hFu67VK439ym29knSovFeybqf.svg)](https://asciinema.org/a/hFu67VK439ym29knSovFeybqf)
+[![asciicast](https://asciinema.org/a/32iAxTjtK5cYqDQnUCW87Rg7t.svg)](https://asciinema.org/a/32iAxTjtK5cYqDQnUCW87Rg7t)
