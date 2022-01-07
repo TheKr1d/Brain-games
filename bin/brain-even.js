@@ -1,5 +1,26 @@
 #!/usr/bin/env node
-import brainEven from '../src/games/be.js';
+import {
+  engine, randomNumber,
+} from '../src/games/index.js';
 
-console.log('Welcome to the Brain Games!');
-brainEven();
+const condition = 'Answer "yes" if the number is even, otherwise answer "no".';
+
+const getQuestionAndAnswer = () => {
+  let i = 0;
+  const resultArr = [];
+
+  while (i !== 3) {
+    const item = [randomNumber()];
+    if (item[0] % 2 === 0) {
+      item.push('yes');
+      resultArr.push(item);
+      i += 1;
+    } else {
+      item.push('no');
+      resultArr.push(item);
+      i += 1;
+    }
+  }
+  return resultArr;
+};
+engine(condition, getQuestionAndAnswer());

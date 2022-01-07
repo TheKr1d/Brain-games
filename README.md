@@ -9,3 +9,7 @@
 ### Пример игры Brain-Even
 
 [![asciicast](https://asciinema.org/a/32iAxTjtK5cYqDQnUCW87Rg7t.svg)](https://asciinema.org/a/32iAxTjtK5cYqDQnUCW87Rg7t)
+
+### Пример игры Brain-Calc
+
+[![asciicast](https://asciinema.org/a/460554.svg)](https://asciinema.org/a/460554)
