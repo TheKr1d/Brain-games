@@ -6,14 +6,19 @@
 
 ## Провека ESlint: [![Node CI](https://github.com/TheKr1d/frontend-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/TheKr1d/frontend-project-lvl1/actions/workflows/github-actions.yml)
 
-### Пример игры Brain-Even
+## Привет. Можешь поиграть в мои мини игры. Как это сделать я показываю ниже.
+### Скачиваем мой репозиторий себе:
+[![asciicast](https://asciinema.org/a/6eyT30ERG3fX7WmieJ5cSWIwm.svg)](https://asciinema.org/a/6eyT30ERG3fX7WmieJ5cSWIwm)
 
-[![asciicast](https://asciinema.org/a/32iAxTjtK5cYqDQnUCW87Rg7t.svg)](https://asciinema.org/a/32iAxTjtK5cYqDQnUCW87Rg7t)
+## Пример игр.
+### brain-even:
+[![asciicast](https://asciinema.org/a/9GadEUDONxqZm4gVqRckAqJM8.svg)](https://asciinema.org/a/9GadEUDONxqZm4gVqRckAqJM8)
 
-### Пример игры Brain-Calc
+### brain-calc:
+[![asciicast](https://asciinema.org/a/p9uQ2XVQLSeaCOPS65rtkpjM4.svg)](https://asciinema.org/a/p9uQ2XVQLSeaCOPS65rtkpjM4)
 
-[![asciicast](https://asciinema.org/a/460554.svg)](https://asciinema.org/a/460554)
+### brain-jcd:
+[![asciicast](https://asciinema.org/a/MPJjpGLooynUi8nMtLlq15Q1X.svg)](https://asciinema.org/a/MPJjpGLooynUi8nMtLlq15Q1X)
 
-### Пример игры Brain-jcd
-
-[![asciicast](https://asciinema.org/a/YaloP5txB0TwUTvSYweC4y2CF.svg)](https://asciinema.org/a/YaloP5txB0TwUTvSYweC4y2CF)
+### brain-progression:
+[![asciicast](https://asciinema.org/a/cZzNST57K7rjssIXxf1Uk1wbJ.svg)](https://asciinema.org/a/cZzNST57K7rjssIXxf1Uk1wbJ)
