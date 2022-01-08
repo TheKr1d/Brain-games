@@ -18,6 +18,7 @@ export const engine = (condition, quest) => {
     if (answer !== String(item[1])) {
       return console.log(`"${answer}" is wrong answer ;(. Correct answer was "${item[1]}"\nLet's try again, ${name}!`);
     }
+    console.log('Correct!');
     i += 1;
   }
   return console.log(`Congratulations, ${name}!`);
@@ -41,7 +42,7 @@ export const getStringFromArrey = (arr) => {
 
 // Получить рандомно оператор.
 const operators = ['+', '-', '*'];
-export const rendomOperator = () => operators[Math.floor(Math.random() * (operators.length - 1))];
+export const randomOperator = () => operators[Math.floor(Math.random() * (operators.length - 1))];
 
 // получить массив всех делителей
 export const getArrDiv = (num) => {
