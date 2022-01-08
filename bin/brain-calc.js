@@ -1,6 +1,7 @@
 #!/usr/bin/env node
+import _ from 'lodash';
 import {
-  engine, getStringFromArrey, randomNumber, rendomOperator,
+  engine, getStringFromArrey, rendomOperator,
 } from '../src/games/index.js';
 
 const condition = 'What is the result of the expression?';
@@ -11,7 +12,7 @@ const getQuestionAndAnswer = () => {
 
   while (i !== 3) {
     const arr = [];
-    arr.push(`${randomNumber()} ${rendomOperator()} ${randomNumber()}`);
+    arr.push(`${_.random(1, 1000)} ${rendomOperator()} ${_.random(1, 1000)}`);
     arr.push(getStringFromArrey(arr[0]));
     resultArr[i] = arr;
     i += 1;

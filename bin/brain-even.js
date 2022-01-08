@@ -1,6 +1,7 @@
 #!/usr/bin/env node
+import _ from 'lodash';
 import {
-  engine, randomNumber,
+  engine,
 } from '../src/games/index.js';
 
 const condition = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -10,7 +11,7 @@ const getQuestionAndAnswer = () => {
   const resultArr = [];
 
   while (i !== 3) {
-    const item = [randomNumber()];
+    const item = [_.random(1, 1000)];
     if (item[0] % 2 === 0) {
       item.push('yes');
       resultArr.push(item);

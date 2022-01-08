@@ -1,7 +1,9 @@
 import readlineSync from 'readline-sync';
 
-const operators = ['+', '-', '*'];
+// Библиотека функций        (О_-)
 
+// Алгоритм взаимодействия с игроком, принимает на вход правила игры и массив:
+// [вопрос, ответ], [вопрос, ответ], [вопрос, ответ]
 export const engine = (condition, quest) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
@@ -21,6 +23,7 @@ export const engine = (condition, quest) => {
   return console.log(`Congratulations, ${name}!`);
 };
 
+// Получить из строки выражение.
 export const getStringFromArrey = (arr) => {
   const arrString = String(arr).split(' ');
   switch (arrString[1]) {
@@ -36,5 +39,22 @@ export const getStringFromArrey = (arr) => {
   return null;
 };
 
-export const randomNumber = () => Math.floor(Math.random() * 1000);
+// Получить рандомно оператор.
+const operators = ['+', '-', '*'];
 export const rendomOperator = () => operators[Math.floor(Math.random() * (operators.length - 1))];
+
+// получить массив всех делителей
+export const getArrDiv = (num) => {
+  let i = 1;
+  const result = [];
+
+  while (i <= num) {
+    if (num % i === 0) {
+      result.push(i);
+      i += 1;
+    } else {
+      i += 1;
+    }
+  }
+  return result;
+};
