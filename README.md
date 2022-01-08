@@ -13,3 +13,7 @@
 ### Пример игры Brain-Calc
 
 [![asciicast](https://asciinema.org/a/460554.svg)](https://asciinema.org/a/460554)
+
+### Пример игры Brain-jcd
+
+[![asciicast](https://asciinema.org/a/YaloP5txB0TwUTvSYweC4y2CF.svg)](https://asciinema.org/a/YaloP5txB0TwUTvSYweC4y2CF)
