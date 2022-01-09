@@ -17,8 +17,8 @@
 ## brain-calc:
 [![asciicast](https://asciinema.org/a/p9uQ2XVQLSeaCOPS65rtkpjM4.svg)](https://asciinema.org/a/p9uQ2XVQLSeaCOPS65rtkpjM4)
 
-## brain-jcd:
-[![asciicast](https://asciinema.org/a/MPJjpGLooynUi8nMtLlq15Q1X.svg)](https://asciinema.org/a/MPJjpGLooynUi8nMtLlq15Q1X)
+## brain-gcd:
+[![asciicast](https://asciinema.org/a/7rabLS6LBz1s1yiGThMvGwX2x.svg)](https://asciinema.org/a/7rabLS6LBz1s1yiGThMvGwX2x)
 
 ## brain-progression:
 [![asciicast](https://asciinema.org/a/cZzNST57K7rjssIXxf1Uk1wbJ.svg)](https://asciinema.org/a/cZzNST57K7rjssIXxf1Uk1wbJ)
