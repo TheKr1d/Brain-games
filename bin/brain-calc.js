@@ -6,7 +6,7 @@ import {
 
 const condition = 'What is the result of the expression?';
 
-const getQuestionAndAnswer = () => {
+function getQuestionAndAnswer() {
   let i = 0;
   const resultArr = [];
 
@@ -18,5 +18,5 @@ const getQuestionAndAnswer = () => {
     i += 1;
   }
   return resultArr;
-};
+}
 engine(condition, getQuestionAndAnswer());

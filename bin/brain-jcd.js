@@ -6,7 +6,7 @@ import {
 
 const condition = 'Find the greatest common divisor of given numbers.';
 
-const getArrQuestionAndAnswer = () => {
+function getArrQuestionAndAnswer() {
   const result = [];
 
   for (let i = 0; i !== 3; i += 1) {
@@ -19,5 +19,5 @@ const getArrQuestionAndAnswer = () => {
     result.push([getQuestion, getIntersections[getIntersections.length - 1]]);
   }
   return result;
-};
+}
 engine(condition, getArrQuestionAndAnswer());

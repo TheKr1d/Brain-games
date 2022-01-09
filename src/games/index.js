@@ -59,3 +59,16 @@ export const getArrDiv = (num) => {
   }
   return result;
 };
+
+// Определение простого числа
+export const getPrimeNum = (num) => {
+  let flug = 'yes';
+
+  for (let i = 2; num > i; i += 1) {
+    if (num % 2 === 0) {
+      flug = 'no';
+      break;
+    }
+  }
+  return flug;
+};

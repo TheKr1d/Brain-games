@@ -6,7 +6,7 @@ import {
 
 const condition = 'What number is missing in the progression?';
 
-const getArrQuestionAndAnswer = () => {
+function getArrQuestionAndAnswer() {
   const resultArr = [];
   for (let i = 0; i !== 3; i += 1) {
     // создание нулевых переменных
@@ -32,5 +32,5 @@ const getArrQuestionAndAnswer = () => {
     resultArr.push(result);
   }
   return resultArr;
-};
+}
 engine(condition, getArrQuestionAndAnswer());

@@ -6,7 +6,7 @@ import {
 
 const condition = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const getQuestionAndAnswer = () => {
+function getQuestionAndAnswer() {
   let i = 0;
   const resultArr = [];
 
@@ -23,5 +23,5 @@ const getQuestionAndAnswer = () => {
     }
   }
   return resultArr;
-};
+}
 engine(condition, getQuestionAndAnswer());
