@@ -28,7 +28,8 @@ function getArrQuestionAndAnswer() {
     }
     const answer = getQuestion[secretNum];
     getQuestion[secretNum] = '..';
-    const result = [getQuestion, answer];
+    const getJoinArr = getQuestion.join(' ');
+    const result = [getJoinArr, answer];
     resultArr.push(result);
   }
   return resultArr;
