@@ -8,20 +8,21 @@ export const engine = (condition, quest) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
-  const name = userName;
   console.log(condition);
   let i = 0;
   while (i !== 3) {
     const item = quest[i];
-    console.log(`Question: ${item[0]}`);
+    let [myQuestion, myAnswer] = item;
+    console.log(`Question: ${myQuestion}`);
     const answer = readlineSync.question('Your answer: ');
-    if (answer !== String(item[1])) {
-      return console.log(`"${answer}" is wrong answer ;(. Correct answer was "${item[1]}"\nLet's try again, ${name}!`);
+    if (answer !== String(myAnswer)) {
+      console.log(`"${answer}" is wrong answer ;(. Correct answer was "${myAnswer}"\nLet's try again, ${userName}!`);
+      return;
     }
     console.log('Correct!');
     i += 1;
   }
-  return console.log(`Congratulations, ${name}!`);
+  console.log(`Congratulations, ${userName}!`);
 };
 
 // Получить из строки выражение.
@@ -65,7 +66,7 @@ export const getPrimeNum = (num) => {
   let flug = 'yes';
 
   for (let i = 2; num > i; i += 1) {
-    if (num % 2 === 0) {
+    if (num % i === 0) {
       flug = 'no';
       break;
     }
