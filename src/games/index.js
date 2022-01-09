@@ -12,7 +12,7 @@ export const engine = (condition, quest) => {
   let i = 0;
   while (i !== 3) {
     const item = quest[i];
-    let [myQuestion, myAnswer] = item;
+    const [myQuestion, myAnswer] = item;
     console.log(`Question: ${myQuestion}`);
     const answer = readlineSync.question('Your answer: ');
     if (answer !== String(myAnswer)) {
