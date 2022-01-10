@@ -2,7 +2,7 @@
 
 ### Hexlet tests: [![Actions Status](https://github.com/TheKr1d/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/TheKr1d/frontend-project-lvl1/actions)
 
-### Codeclimate пригодность: [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+### Codeclimate пригодность: [![Maintainability](https://api.codeclimate.com/v1/badges/53233c195cb09ead265d/maintainability)](https://codeclimate.com/github/TheKr1d/frontend-project-lvl1/maintainability)
 
 ### Провека ESlint: [![Node CI](https://github.com/TheKr1d/frontend-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/TheKr1d/frontend-project-lvl1/actions/workflows/github-actions.yml)
 
