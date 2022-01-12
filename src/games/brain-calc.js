@@ -19,7 +19,7 @@ const getExpression = (num1, num2, operator) => {
 
 const randomOperator = () => {
   const operators = ['+', '-', '*'];
-  const maxNum = operators.length;
+  const maxNum = operators.length - 1;
   return operators[randomNum(0, maxNum)];
 };
 
