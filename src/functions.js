@@ -1,46 +1,22 @@
-import _ from 'lodash';
-
-export const getStringFromArrey = (arr) => {
-  const arrString = String(arr).split(' ');
-  switch (arrString[1]) {
-    case '-':
-      return Number(arrString[0]) - Number(arrString[2]);
-    case '*':
-      return Number(arrString[0]) * Number(arrString[2]);
-    case '+':
-      return Number(arrString[0]) + Number(arrString[2]);
-    default:
-      break;
+export const gcd = (a, b) => {
+  if (b === 0) {
+    return a;
   }
-  return null;
-};
-
-const operators = ['+', '-', '*'];
-export const randomOperator = () => operators[_.random(2)];
-
-export const getArrDiv = (num) => {
-  let i = 1;
-  const result = [];
-
-  while (i <= num) {
-    if (num % i === 0) {
-      result.push(i);
-      i += 1;
-    } else {
-      i += 1;
-    }
-  }
-  return result;
+  return gcd(b, a % b);
 };
 
 export const getPrimeNum = (num) => {
-  let flug = 'yes';
+  let flug = true;
 
-  for (let i = 2; num > i; i += 1) {
+  for (let i = 2; (num / 2) > i; i += 1) {
     if (num % i === 0) {
-      flug = 'no';
+      flug = false;
       break;
     }
   }
   return flug;
 };
+
+export function randomNum(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}

@@ -1,21 +1,42 @@
-import _ from 'lodash';
-import engine from '../index.js';
-import {
-  getStringFromArrey, randomOperator,
-} from '../functions.js';
+import { engine, raunds } from '../index.js';
+import { randomNum } from '../functions.js';
 
 const condition = 'What is the result of the expression?';
 
+const getExpression = (num1, num2, operator) => {
+  switch (operator) {
+    case '-':
+      return num1 - num2;
+    case '*':
+      return num1 * num2;
+    case '+':
+      return num1 + num2;
+    default:
+      break;
+  }
+  return null;
+};
+
+const randomOperator = () => {
+  const operators = ['+', '-', '*'];
+  const maxNum = operators.length;
+  return operators[randomNum(0, maxNum)];
+};
+
 function getQuestionAndAnswer() {
-  let rounds = 0;
+  let i = 0;
   const resultArr = [];
 
-  while (rounds !== 3) {
+  while (i !== raunds) {
     const arr = [];
-    arr.push(`${_.random(1, 1000)} ${randomOperator()} ${_.random(1, 1000)}`);
-    arr.push(getStringFromArrey(arr[0]));
-    resultArr[rounds] = arr;
-    rounds += 1;
+    const getRandomNum1 = randomNum(1, 1000);
+    const getRandomNum2 = randomNum(1, 1000);
+    const getOperators = randomOperator();
+
+    arr.push(`${getRandomNum1} ${getOperators} ${getRandomNum2}`);
+    arr.push(getExpression(getRandomNum1, getRandomNum2, getOperators));
+    resultArr[i] = arr;
+    i += 1;
   }
   return resultArr;
 }

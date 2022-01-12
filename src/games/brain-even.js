@@ -1,5 +1,7 @@
-import _ from 'lodash';
-import engine from '../index.js';
+import { engine, raunds } from '../index.js';
+import {
+  randomNum,
+} from '../functions.js';
 
 const condition = 'Answer "yes" if the number is even, otherwise answer "no".';
 
@@ -7,8 +9,8 @@ const getQuestionAndAnswer = () => {
   let i = 0;
   const resultArr = [];
 
-  while (i !== 3) {
-    const item = [_.random(1, 1000)];
+  while (i !== raunds) {
+    const item = [randomNum(1, 1000)];
     if (item[0] % 2 === 0) {
       item.push('yes');
       resultArr.push(item);

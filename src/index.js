@@ -4,13 +4,15 @@ import readlineSync from 'readline-sync';
 
 // Алгоритм взаимодействия с игроком, принимает на вход правила игры и массив:
 // [вопрос, ответ], [вопрос, ответ], [вопрос, ответ]
-const engine = (condition, quest) => {
+
+export const raunds = 3;
+export const engine = (condition, quest) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(condition);
   let i = 0;
-  while (i !== 3) {
+  while (i !== raunds) {
     const item = quest[i];
     const [myQuestion, myAnswer] = item;
     console.log(`Question: ${myQuestion}`);
@@ -24,4 +26,3 @@ const engine = (condition, quest) => {
   }
   console.log(`Congratulations, ${userName}!`);
 };
-export default engine;
