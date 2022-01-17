@@ -1,5 +1,5 @@
-import { engine, raunds } from '../index.js';
-import { randomNum } from '../functions.js';
+import { engine, rounds } from '../index.js';
+import randomNum from '../functions.js';
 
 const condition = 'What is the result of the expression?';
 
@@ -12,31 +12,26 @@ const getExpression = (num1, num2, operator) => {
     case '+':
       return num1 + num2;
     default:
-      break;
+      return null;
   }
-  return null;
-};
-
-const randomOperator = () => {
-  const operators = ['+', '-', '*'];
-  const maxNum = operators.length - 1;
-  return operators[randomNum(0, maxNum)];
 };
 
 function getQuestionAndAnswer() {
-  let i = 0;
+  const randomOperator = () => {
+    const operators = ['+', '-', '*'];
+    const maxIndex = operators.length - 1;
+    return operators[randomNum(0, maxIndex)];
+  };
   const resultArr = [];
 
-  while (i !== raunds) {
-    const arr = [];
+  for (let i = 0; i !== rounds; i += 1) {
     const getRandomNum1 = randomNum(1, 1000);
     const getRandomNum2 = randomNum(1, 1000);
-    const getOperators = randomOperator();
+    const getOperator = randomOperator();
 
-    arr.push(`${getRandomNum1} ${getOperators} ${getRandomNum2}`);
-    arr.push(getExpression(getRandomNum1, getRandomNum2, getOperators));
-    resultArr[i] = arr;
-    i += 1;
+    const question = `${getRandomNum1} ${getOperator} ${getRandomNum2}`;
+    const answer = String(getExpression(getRandomNum1, getRandomNum2, getOperator));
+    resultArr.push([question, answer]);
   }
   return resultArr;
 }

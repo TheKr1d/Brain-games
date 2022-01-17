@@ -1,31 +1,29 @@
-import { engine, raunds } from '../index.js';
-import { randomNum } from '../functions.js';
+import { engine, rounds } from '../index.js';
+import randomNum from '../functions.js';
 
 const condition = 'What number is missing in the progression?';
 
+function getProgression(start, quantity) {
+  const step = randomNum(10, 30);
+  const progression = [start];
+  for (let i = quantity; i !== 0; i -= 1) {
+    progression.push(progression[progression.length - 1] + step);
+  }
+  return progression;
+}
+
 function getArrQuestionAndAnswer() {
   const resultArr = [];
-  for (let i = 0; i !== raunds; i += 1) {
-    let quantityNum = 0;
-    let step = 0;
-    let firstNum = 0;
-    let secretNum = 0;
+  for (let i = 0; i !== rounds; i += 1) {
+    const quantityNum = randomNum(5, 10);
+    const firstNum = randomNum(1, 1000);
+    const indexSecretNum = randomNum(5, quantityNum);
+    const progression = getProgression(firstNum, quantityNum);
 
-    quantityNum = randomNum(5, 10);
-    firstNum = randomNum(1, 1000);
-    secretNum = randomNum(5, quantityNum);
-    step = randomNum(10, 30);
-
-    const getQuestion = [firstNum];
-
-    for (let i2 = quantityNum; i2 !== 0; i2 -= 1) {
-      getQuestion.push(getQuestion[getQuestion.length - 1] + step);
-    }
-    const answer = getQuestion[secretNum];
-    getQuestion[secretNum] = '..';
-    const getJoinArr = getQuestion.join(' ');
-    const result = [getJoinArr, String(answer)];
-    resultArr.push(result);
+    const answer = progression[indexSecretNum];
+    progression[indexSecretNum] = '..';
+    const getJoinArr = progression.join(' ');
+    resultArr.push([getJoinArr, String(answer)]);
   }
   return resultArr;
 }
