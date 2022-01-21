@@ -13,8 +13,7 @@ export const engine = (condition, arrQuestionsAndAnswers) => {
   console.log(condition);
 
   const quantityRaunds = arrQuestionsAndAnswers.length;
-  let i = 0;
-  while (i !== quantityRaunds) {
+  for (let i = 0; i !== quantityRaunds; i += 1) {
     const item = arrQuestionsAndAnswers[i];
     const [question, correctAnswer] = item;
     console.log(`Question: ${question}`);
@@ -24,7 +23,6 @@ export const engine = (condition, arrQuestionsAndAnswers) => {
       return;
     }
     console.log('Correct!');
-    i += 1;
   }
   console.log(`Congratulations, ${userName}!`);
 };

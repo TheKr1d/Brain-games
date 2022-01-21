@@ -1,5 +1,5 @@
 import { engine, rounds } from '../index.js';
-import randomNum from '../functions.js';
+import randomNum from '../getRandomNumber.js';
 
 const condition = 'Find the greatest common divisor of given numbers.';
 

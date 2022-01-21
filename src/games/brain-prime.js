@@ -1,10 +1,10 @@
 import { engine, rounds } from '../index.js';
-import randomNum from '../functions.js';
+import randomNum from '../getRandomNumber.js';
 
 const condition = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const checkPrimeNum = (num) => {
-  for (let i = 2; (num / 2) > i; i += 1) {
+  for (let i = 2; Math.sqrt(num) > i; i += 1) {
     if (num % i === 0) {
       return false;
     }
@@ -12,14 +12,12 @@ const checkPrimeNum = (num) => {
   return true;
 };
 
-const primeYesOrNo = (num) => (checkPrimeNum(num) ? 'yes' : 'no');
-
 function getArrQuestionAndAnswer() {
   const resultArr = [];
 
   for (let i = 0; i !== rounds; i += 1) {
-    const question = randomNum(2, 100);
-    const answer = primeYesOrNo(question);
+    const question = randomNum(5, 100);
+    const answer = checkPrimeNum(question) ? 'yes' : 'no';
     resultArr.push([question, answer]);
   }
   return resultArr;
