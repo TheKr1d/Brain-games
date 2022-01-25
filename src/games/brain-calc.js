@@ -17,8 +17,8 @@ const getExpression = (num1, num2, operator) => {
   }
 };
 
-function getQuestionAndAnswer() {
-  const resultArr = [];
+function generateRoundsData() {
+  const roundsData = [];
 
   for (let i = 0; i !== rounds; i += 1) {
     const getRandomNum1 = randomNum(1, 1000);
@@ -27,10 +27,10 @@ function getQuestionAndAnswer() {
 
     const question = `${getRandomNum1} ${randomOperator} ${getRandomNum2}`;
     const answer = String(getExpression(getRandomNum1, getRandomNum2, randomOperator));
-    resultArr.push([question, answer]);
+    roundsData.push([question, answer]);
   }
-  return resultArr;
+  return roundsData;
 }
 export default function brainCalc() {
-  engine(condition, getQuestionAndAnswer());
+  engine(condition, generateRoundsData());
 }

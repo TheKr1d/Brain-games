@@ -12,16 +12,16 @@ const checkPrimeNum = (num) => {
   return true;
 };
 
-function getArrQuestionAndAnswer() {
-  const resultArr = [];
+function generateRoundsData() {
+  const roundsData = [];
 
   for (let i = 0; i !== rounds; i += 1) {
     const question = randomNum(5, 100);
     const answer = checkPrimeNum(question) ? 'yes' : 'no';
-    resultArr.push([question, answer]);
+    roundsData.push([question, answer]);
   }
-  return resultArr;
+  return roundsData;
 }
 export default function brainPrime() {
-  engine(condition, getArrQuestionAndAnswer());
+  engine(condition, generateRoundsData());
 }

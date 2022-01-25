@@ -10,18 +10,18 @@ const gcd = (a, b) => {
   return gcd(b, a % b);
 };
 
-function getArrQuestionAndAnswer() {
-  const result = [];
+function generateRoundsData() {
+  const roundsData = [];
 
   for (let i = 0; i !== rounds; i += 1) {
     const randomNum1 = randomNum(2, 20);
     const randomNum2 = randomNum(2, 20);
-    const getQuestion = `${randomNum1} ${randomNum2}`;
-    const getIntersections = String(gcd(randomNum1, randomNum2));
-    result.push([getQuestion, getIntersections]);
+    const question = `${randomNum1} ${randomNum2}`;
+    const answer = String(gcd(randomNum1, randomNum2));
+    roundsData.push([question, answer]);
   }
-  return result;
+  return roundsData;
 }
 export default function brainGcd() {
-  engine(condition, getArrQuestionAndAnswer());
+  engine(condition, generateRoundsData());
 }

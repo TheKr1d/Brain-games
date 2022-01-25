@@ -11,8 +11,8 @@ function getProgression(start, quantity, step) {
   return progression;
 }
 
-function getArrQuestionAndAnswer() {
-  const resultArr = [];
+function generateRoundsData() {
+  const roundsData = [];
   for (let i = 0; i !== rounds; i += 1) {
     const step = randomNum(10, 30);
     const quantityNum = randomNum(5, 10);
@@ -22,12 +22,12 @@ function getArrQuestionAndAnswer() {
 
     const answer = progression[indexSecretNum];
     progression[indexSecretNum] = '..';
-    const getJoinArr = progression.join(' ');
-    resultArr.push([getJoinArr, String(answer)]);
+    const question = progression.join(' ');
+    roundsData.push([question, String(answer)]);
   }
-  return resultArr;
+  return roundsData;
 }
 
 export default function brainProgression() {
-  engine(condition, getArrQuestionAndAnswer());
+  engine(condition, generateRoundsData());
 }

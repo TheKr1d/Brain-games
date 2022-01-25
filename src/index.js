@@ -6,16 +6,15 @@ import readlineSync from 'readline-sync';
 // [вопрос, ответ], [вопрос, ответ], [вопрос, ответ]
 
 export const rounds = 3;
-export const engine = (condition, arrQuestionsAndAnswers) => {
+export const engine = (condition, roundsData) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(condition);
 
-  const quantityRaunds = arrQuestionsAndAnswers.length;
-  for (let i = 0; i !== quantityRaunds; i += 1) {
-    const item = arrQuestionsAndAnswers[i];
-    const [question, correctAnswer] = item;
+  const quantityRounds = roundsData.length;
+  for (let i = 0; i !== quantityRounds; i += 1) {
+    const [question, correctAnswer] = roundsData[i];
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer !== correctAnswer) {
