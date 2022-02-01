@@ -1,13 +1,20 @@
 ## Hexlet tests and linter status:
 
-### Hexlet tests: [![Actions Status](https://github.com/TheKr1d/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/TheKr1d/frontend-project-lvl1/actions)
-
-### Codeclimate пригодность: [![Maintainability](https://api.codeclimate.com/v1/badges/53233c195cb09ead265d/maintainability)](https://codeclimate.com/github/TheKr1d/frontend-project-lvl1/maintainability)
-
-### Провека ESlint: [![Node CI](https://github.com/TheKr1d/frontend-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/TheKr1d/frontend-project-lvl1/actions/workflows/github-actions.yml)
-
-### Привет. Можешь поиграть в мои мини игры. Как это сделать я показываю ниже.
-## Скачиваем мой репозиторий себе:
+[![Actions Status](https://github.com/TheKr1d/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/TheKr1d/frontend-project-lvl1/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/53233c195cb09ead265d/maintainability)](https://codeclimate.com/github/TheKr1d/frontend-project-lvl1/maintainability)
+[![Node CI](https://github.com/TheKr1d/frontend-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/TheKr1d/frontend-project-lvl1/actions/workflows/github-actions.yml)
+╔══╗╔═╗╔══╗╔══╗╔═╦╗     ╔══╗╔══╗╔═╦═╗╔═╗╔══╗
+║╔╗║║╬║║╔╗║╚║║╝║║║║     ║╔═╣║╔╗║║║║║║║╦╝║══╣
+║╔╗║║╗╣║╠╣║╔║║╗║║║║     ║╚╗║║╠╣║║║║║║║╩╗╠══║
+╚══╝╚╩╝╚╝╚╝╚══╝╚╩═╝     ╚══╝╚╝╚╝╚╩═╩╝╚═╝╚══╝
+## Hello. Welcome to the Brain Games!
+## Download my repository for yourself:
+```javascript
+1. git clone git@github.com:TheKr1d/frontend-project-lvl1.git
+2. cd frontend-project-lvl1
+3. npm ci
+4. npm link
+```
 [![asciicast](https://asciinema.org/a/6eyT30ERG3fX7WmieJ5cSWIwm.svg)](https://asciinema.org/a/6eyT30ERG3fX7WmieJ5cSWIwm)
 
 ### Пример игр.
