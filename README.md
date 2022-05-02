@@ -10,11 +10,11 @@
 ╚══╝╚╩╝╚╝╚╝╚══╝╚╩═╝     ╚══╝╚╝╚╝╚╩═╩╝╚═╝╚══╝
 ## Hello. Welcome to the Brain Games!
 ## Download my repository for yourself:
-```javascript
-1. 'git clone git@github.com:TheKr1d/frontend-project-lvl1.git'
-2. 'cd frontend-project-lvl1'
-3. 'npm ci'
-4. 'npm link'
+```
+1. git clone git@github.com:TheKr1d/frontend-project-lvl1.git
+2. cd frontend-project-lvl1
+3. npm ci
+4. npm link
 ```
 [![asciicast](https://asciinema.org/a/6eyT30ERG3fX7WmieJ5cSWIwm.svg)](https://asciinema.org/a/6eyT30ERG3fX7WmieJ5cSWIwm)
 
