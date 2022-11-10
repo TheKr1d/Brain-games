@@ -14,18 +14,18 @@
 ```
 [![asciicast](https://asciinema.org/a/6eyT30ERG3fX7WmieJ5cSWIwm.svg)](https://asciinema.org/a/6eyT30ERG3fX7WmieJ5cSWIwm)
 
-### Пример игр.
+### В каждой игре у тебя будет 3 раунда. Для победы необходимо победить все. Пример игры можно увидеть ниже. Удачи!
 ## brain-even:
 [![Brain-even](https://asciinema.org/a/XDYjk7Gte2fMTJIkbYO04nIsx.svg)](https://asciinema.org/a/XDYjk7Gte2fMTJIkbYO04nIsx)
 
 ## brain-calc:
-[![asciicast](https://asciinema.org/a/p9uQ2XVQLSeaCOPS65rtkpjM4.svg)](https://asciinema.org/a/p9uQ2XVQLSeaCOPS65rtkpjM4)
+[![Brain-calc](https://asciinema.org/a/xARzYncwgeyrGoaodZeNC9OEf.svg)](https://asciinema.org/a/xARzYncwgeyrGoaodZeNC9OEf)
 
 ## brain-gcd:
-[![asciicast](https://asciinema.org/a/7rabLS6LBz1s1yiGThMvGwX2x.svg)](https://asciinema.org/a/7rabLS6LBz1s1yiGThMvGwX2x)
+[![asciicast](https://asciinema.org/a/9XlIfmP3JnlVnoaXsixJ5HJx3.svg)](https://asciinema.org/a/9XlIfmP3JnlVnoaXsixJ5HJx3)
 
 ## brain-progression:
-[![asciicast](https://asciinema.org/a/cZzNST57K7rjssIXxf1Uk1wbJ.svg)](https://asciinema.org/a/cZzNST57K7rjssIXxf1Uk1wbJ)
+[![asciicast](https://asciinema.org/a/VqDpoUear1jazznDNyDMOKE2Y.svg)](https://asciinema.org/a/VqDpoUear1jazznDNyDMOKE2Y)
 
 ## brain-prime:
-[![asciicast](https://asciinema.org/a/84rAJdYQBA7WrLteQ2zQdZp9R.svg)](https://asciinema.org/a/84rAJdYQBA7WrLteQ2zQdZp9R)
+[![asciicast](https://asciinema.org/a/f46pUyxtvEejqN2Y83v3oowGt.svg)](https://asciinema.org/a/f46pUyxtvEejqN2Y83v3oowGt)
