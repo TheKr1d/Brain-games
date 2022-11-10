@@ -19,7 +19,7 @@
 [![asciicast](https://asciinema.org/a/6eyT30ERG3fX7WmieJ5cSWIwm.svg)](https://asciinema.org/a/6eyT30ERG3fX7WmieJ5cSWIwm)
 
 ### Пример игр.
-## brain-even:
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Brain+even)](https://git.io/typing-svg)
 [![Brain-even](https://asciinema.org/a/XDYjk7Gte2fMTJIkbYO04nIsx.svg)](https://asciinema.org/a/XDYjk7Gte2fMTJIkbYO04nIsx)
 
 ## brain-calc:
