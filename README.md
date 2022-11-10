@@ -4,12 +4,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/53233c195cb09ead265d/maintainability)](https://codeclimate.com/github/TheKr1d/frontend-project-lvl1/maintainability)
 [![Node CI](https://github.com/TheKr1d/frontend-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/TheKr1d/frontend-project-lvl1/actions/workflows/github-actions.yml)
 
-╔══╗╔═╗╔══╗╔══╗╔═╦╗     ╔══╗╔══╗╔═╦═╗╔═╗╔══╗
-║╔╗║║╬║║╔╗║╚║║╝║║║║     ║╔═╣║╔╗║║║║║║║╦╝║══╣
-║╔╗║║╗╣║╠╣║╔║║╗║║║║     ║╚╗║║╠╣║║║║║║║╩╗╠══║
-╚══╝╚╩╝╚╝╚╝╚══╝╚╩═╝     ╚══╝╚╝╚╝╚╩═╩╝╚═╝╚══╝
-## Hello. Welcome to the Brain Games!
-## Download my repository for yourself:
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lobster&pause=1000&color=156FF7&background=B8B8B800&center=true&vCenter=true&multiline=true&width=700&height=300&lines=Hello.+Welcome+to+the+Brain+Games!;Download+my+repository+for+yourself%3A)](https://git.io/typing-svg)
 ```
 1. git clone git@github.com:TheKr1d/frontend-project-lvl1.git
 2. cd frontend-project-lvl1
@@ -19,7 +15,7 @@
 [![asciicast](https://asciinema.org/a/6eyT30ERG3fX7WmieJ5cSWIwm.svg)](https://asciinema.org/a/6eyT30ERG3fX7WmieJ5cSWIwm)
 
 ### Пример игр.
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Brain+even)](https://git.io/typing-svg)
+## brain-even:
 [![Brain-even](https://asciinema.org/a/XDYjk7Gte2fMTJIkbYO04nIsx.svg)](https://asciinema.org/a/XDYjk7Gte2fMTJIkbYO04nIsx)
 
 ## brain-calc:
