@@ -5,7 +5,7 @@
 [![Node CI](https://github.com/TheKr1d/frontend-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/TheKr1d/frontend-project-lvl1/actions/workflows/github-actions.yml)
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lobster&size=45&pause=1000&color=156FF7&background=B8B8B800&center=true&vCenter=true&multiline=true&width=700&height=300&lines=Hello.+Welcome+to+the+Brain+Games!;Download+my+repository+for+yourself%3A)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lobster&size=45&pause=1000&color=156FF7&background=B8B8B800&center=true&vCenter=true&multiline=true&width=700&height=140&lines=Hello.+Welcome+to+the+Brain+Games!;Download+my+repository+for+yourself%3A)](https://git.io/typing-svg)
 ```
 1. git clone git@github.com:TheKr1d/frontend-project-lvl1.git
 2. cd frontend-project-lvl1
