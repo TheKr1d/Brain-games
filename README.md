@@ -20,7 +20,7 @@
 
 ### Пример игр.
 ## brain-even:
-<script id="asciicast-XDYjk7Gte2fMTJIkbYO04nIsx" src="https://asciinema.org/a/XDYjk7Gte2fMTJIkbYO04nIsx.js" async></script>
+[![Brain-even](https://asciinema.org/a/XDYjk7Gte2fMTJIkbYO04nIsx.svg)](https://asciinema.org/a/XDYjk7Gte2fMTJIkbYO04nIsx)
 
 ## brain-calc:
 [![asciicast](https://asciinema.org/a/p9uQ2XVQLSeaCOPS65rtkpjM4.svg)](https://asciinema.org/a/p9uQ2XVQLSeaCOPS65rtkpjM4)
